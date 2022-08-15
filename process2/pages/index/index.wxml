@@ -1,0 +1,44 @@
+<view class="info-box">
+   <view>
+   <view>
+     <image class="avatar-img" src="/pages/static/table/tu1.png" />
+     </view>
+     </view>
+  
+ </view>
+ <view class="wo">
+     <image class="avatar-img1" src="/pages/static/table/我的2.png"/>
+ </view>
+ <view class="woo1">
+     <image class="avatar-img2" src="/pages/static/table/纪录.png"/>
+ </view>
+ <view class="menu">
+      <view class="item">
+        <image class="w6" src="/pages/static/table/图片1.png"></image>
+        <view class="c1">
+        <button type="primary" size="mini" bindtap="videoPlay">播放</button>
+        <button type="primary" size="mini" bindtap="videoPause">暂停</button>
+        <button type="primary" size="mini" bindtap="videorequestFullScreen">上传</button>
+        </view>
+        <view class="wo1">
+        <text style="color: chartreuse;">地点：坪岭疙瘩楼水库路口处。</text>
+        <text style="color: chartreuse;">时间：2021.05.23 20：15：00</text>
+        <image src="/pages/static/table/t2.1.png" class="ww2"></image>
+        </view>
+      </view>
+      <view class="item">
+        <image src="/pages/static/table/图片3.png" class="w6"></image>
+        <view class="c1">
+        <button type="primary" size="mini" bindtap="videoPlay">播放</button>
+        <button type="primary" size="mini" bindtap="videoPause">暂停</button>
+        <button type="primary" size="mini" bindtap="videorequestFullScreen">上传</button>
+        </view>
+        <view class="wo1">
+        <text style="color: chartreuse;">地点：永丰县藤田镇某路口。</text>
+        <text style="color: chartreuse;">时间：2022.02.10 20:42:11</text>
+        <image src="/pages/static/table/t2.1.png" class="ww2"></image>
+        </view>
+      
+      </view>
+      
+   </view>

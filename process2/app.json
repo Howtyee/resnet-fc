@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFDAB9",
+    "navigationBarTitleText": "智存光远",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/static/table/me1.png",
+        "selectedIconPath": "pages/static/table/me.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "pages/static/table/shouye.png",
+        "selectedIconPath": "pages/static/table/shouye1.png",
+        "text": "首页"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

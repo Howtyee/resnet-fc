@@ -1,0 +1,38 @@
+<view class="wo">
+  <image src="/pages/static/table/违规.png" class="woo1"/>
+ </view>
+ <swiper indicator-dots="{{indicatorDots}}"  
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">  
+         <block wx:for="{{imgUrls}}">  
+
+           <swiper-item>  
+
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+
+               <image src="{{item.url}}" class="w3" />  
+              </navigator>  
+           </swiper-item>  
+         </block>  
+ </swiper> 
+<view class="wo">
+  <image src="/pages/static/table/设计.png" class="woo2"/>
+ </view>
+ <view class="menu1">
+      <view class="w2">
+        <image src="/pages/static/table/图1.png" class="image"/>
+      </view>
+      <view class="w2">
+        <image src="/pages/static/table/图2.png" class="image"/>
+      </view>
+      <view class="w2">
+        <image src="/pages/static/table/图3.png" class="image"/>
+      </view>
+      <view class="w2">
+        <image src="/pages/static/table/图4.png" class="image"/>
+      </view>
+      <view class="w2">
+        <image src="/pages/static/table/图5.png" class="image"/>
+      </view>
+  
+    
+   </view>
